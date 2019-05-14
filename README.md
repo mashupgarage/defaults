@@ -1,5 +1,9 @@
 <p align='center'>
-<br><img src='https://user-images.githubusercontent.com/74385/47948807-e0779800-df72-11e8-81e8-68ec5c61de46.png' width='160'><br>
+<br>
+<a href='https://thenounproject.com/search/?q=settings&i=608603' title='Icon by Creative Outlet via TheNounProject.com'>
+<img src='https://user-images.githubusercontent.com/74385/57679494-0dadad00-765e-11e9-8661-3ad7244d7eea.png' width='160'>
+</a>
+<br>
 </p>
 
 <h1 align='center'>
