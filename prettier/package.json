@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "prettier:check": "prettier --list-different 'apps/**/*.{js,jsx,ts,tsx,scss}'",
+    "prettier:fix": "prettier --write 'apps/**/*.{js,jsx,ts,tsx,scss}'"
+  }
+}
