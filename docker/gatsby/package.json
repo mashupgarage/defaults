@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "develop": "gatsby develop"
+  }
+}
+
