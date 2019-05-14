@@ -1,0 +1,33 @@
+version: v1.0
+name: Your project name goes here
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+blocks:
+  - name: Linters and type checks
+    task:
+      prologue:
+        commands:
+          - checkout
+          - yarn --pure-lockfile
+      jobs:
+        - name: Eslint
+          commands:
+            - 'yarn run lint:check'
+        - name: Prettier
+          commands:
+            - 'yarn run prettier:check'
+
+  - name: Build and test
+    task:
+      prologue:
+        commands:
+          - checkout
+          - yarn --pure-lockfile
+      jobs:
+        - name: Run tests
+          commands:
+            - 'yarn run test'
+
