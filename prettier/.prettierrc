@@ -1,6 +1,14 @@
 {
+  // No semicolons.
   "semi": false,
+
+  // Enforce single quotes in string literals (`const message = 'hello'`).
+  // Doesn't affect JSX; see the next rule.
   "singleQuote": true,
+
+  // Enforce single quotes in JSX attributes (`<div className='hello'>`). This
+  // applies to all JSX elements in any file, regardless of extension (ie,
+  // `.tsx` and `.js` files are also affected).
   "jsxSingleQuote": true
 }
 
