@@ -17,6 +17,5 @@
     "esModuleInterop": true,
     "plugins": [{ "name": "typescript-tslint-plugin" }]
   },
-  "include": ["src"],
-  "exclude": ["src/**/*.js"]
+  "include": ["src"]
 }
