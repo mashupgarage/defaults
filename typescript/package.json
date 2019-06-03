@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "tsc": "tsc",
+    "tslint:check": "tslint -p tsconfig.json",
+    "tslint:fix": "tslint -p tsconfig.json --fix"
+  }
+}

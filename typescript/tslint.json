@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "member-access": [true, "no-public"],
+    "curly": false,
+    "no-empty": false
+  },
+  "rulesDirectory": []
+}
+
