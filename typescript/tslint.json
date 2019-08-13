@@ -4,12 +4,15 @@
     "tslint:recommended",
     "tslint-config-prettier"
   ],
+  "jsRules": {
+    "object-literal-sort-keys": false,
+    "curly": false
+  },
   "rules": {
     "interface-name": false,
     "object-literal-sort-keys": false,
     "member-access": [true, "no-public"],
-    "curly": false,
-    "no-empty": false
+    "curly": false
   },
   "rulesDirectory": []
 }
